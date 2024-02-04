@@ -3,9 +3,13 @@
 import DefaultTheme from "vitepress/theme-without-fonts";
 import ExamplesGrid from "./ExamplesGrid.vue";
 import ObservablePromo from "./ObservablePromo.vue";
+import ObservablePromoCN from "./ObservablePromoCN.vue";
+import { useData } from 'vitepress';
+
+const { lang } = useData();
+console.log(lang.value);
 
 const {Layout} = DefaultTheme;
-
 </script>
 
 <template>
@@ -21,7 +25,7 @@ const {Layout} = DefaultTheme;
       <ExamplesGrid />
     </template>
     <template #home-features-after>
-      <ObservablePromo />
+      <component :is="lang==='zh-CN' ? ObservablePromoCN : ObservablePromo" />
     </template>
   </Layout>
 </template>
