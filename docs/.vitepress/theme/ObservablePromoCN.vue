@@ -1,6 +1,6 @@
 <template>
   <div :class="`vp-doc ${$style.promo}`">
-    <h1 :class="$style.hed">在 Observable 平台上使用 D3 构建你的佳作</h1>
+    <h1 :class="$style.hed">在 Observable 使用 D3 构建你的佳作</h1>
     <div :class="$style.subhed">唯一能够支持 D3 全部功能的数据工作流平台</div>
     <div :class="$style.columns">
       <div :class="$style.column">

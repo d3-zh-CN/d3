@@ -55,7 +55,7 @@ export default defineConfig({
         text: "介绍",
         items: [
           { text: "D3 是什么?", link: "/zh-CN/what-is-d3" },
-          { text: "快速开始", link: "/zh-CN/getting-started" },
+          { text: "快速上手", link: "/zh-CN/getting-started" },
         ],
       },
       {
