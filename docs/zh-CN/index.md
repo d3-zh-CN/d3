@@ -17,17 +17,17 @@ head:
 hero:
   name: "D3"
   text: "JavaScript 库用于打造独具个性的数据可视化"
-  tagline: 借助高度灵活性来创建引人入胜的独特可视化作品
+  tagline: 借助高度灵活性来创建独特的动态可视化作品
   image:
     src: /logo.svg
     alt: D3
   actions:
     - theme: brand
-      text: 快速开始
+      text: 快速上手
       link: /zh-CN/getting-started
     - theme: alt
       text: D3 是什么?
-      link: /what-is-d3
+      link: /zh-CN/what-is-d3
     - theme: alt
       text: 示例
       link: https://observablehq.com/@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable
@@ -35,25 +35,25 @@ hero:
 features:
   - title: 元素选择与过渡动效
     details: 基于数据驱动 DOM 元素的创建、更新和动画化，不需要依赖虚拟 DOM。
-    link: /d3-selection
+    link: /zh-CN/d3-selection
   - title: 比例尺与坐标轴
     details: 将抽象数据编码为视觉变量，例如位置、大小或颜色。使用坐标轴来解释位置编码。
-    link: /d3-scale
+    link: /zh-CN/d3-scale
   - title: 形状
     details: 可渲染生成 arcs 弧线、areas 区域面积、curves 曲线、lines 线段、links 连线、pies 饼图、stacks 堆叠、symbols 符号等各种基本几何形状，以满足数据可视化的需求。
-    link: /d3-shape
+    link: /zh-CN/d3-shape
   - title: 交互
-    details: 支持常见的交互操作，包括平移、缩放、刷选和拖拽，以增强用户探索数据的能力
-    link: /d3-brush
+    details: 支持常见的交互操作，包括平移、缩放、刷选和拖拽，以增强用户探索数据的能力。
+    link: /zh-CN/d3-brush
   - title: 布局
-    details: 提供实现 treemaps 树图、trees 树状图、force-directed graphs 力导向图、Voronoi 维诺图、contours 等高线图、chords 弦图、circle-packing 圆堆图等一系列布局算法的模块，可以开箱即用
-    link: /d3-hierarchy
+    details: 提供实现 treemaps 树图、trees 树状图、force-directed graphs 力导向图、Voronoi 维诺图、contours 等高线图、chords 弦图、circle-packing 圆堆图等一系列布局算法的模块，可以开箱即用。
+    link: /zh-CN/d3-hierarchy
   - title: 地图
     details: 提供多种球面投影方式，支持任意角度、自适应采样、灵活裁剪，任你随意挑选。
-    link: /d3-geo
+    link: /zh-CN/d3-geo
   - title: ……还有更多！
     details: 解析 CSV、对地方时的解析和格式化、颜色空间、计算日期、统计分析等各种功能应有尽有，不胜枚举。
-    link: /d3-array
+    link: /zh-CN/d3-array
   - title: 驱动 Observable Plot
     details: D3 团队还构建了 Observable Plot，这是一个建立在 D3 之上的、用于快速绘制图表的高级 API。
     link: https://observablehq.com/plot?utm_source=d3js-org&utm_medium=features&utm_campaign=try-observable
