@@ -23,7 +23,7 @@ hero:
     alt: D3
   actions:
     - theme: brand
-      text: 快速上手
+      text: 入门指南
       link: /zh-CN/getting-started
     - theme: alt
       text: D3 是什么?
@@ -34,22 +34,22 @@ hero:
 
 features:
   - title: 元素选择与过渡动效
-    details: 基于数据驱动 DOM 元素的创建、更新和动画化，不需要依赖虚拟 DOM。
+    details: 基于数据进行 DOM 元素的创建、更新和动画化，不需要依赖虚拟 DOM。
     link: /zh-CN/d3-selection
   - title: 比例尺与坐标轴
     details: 将抽象数据编码为视觉变量，例如位置、大小或颜色。使用坐标轴来解释位置编码。
     link: /zh-CN/d3-scale
   - title: 形状
-    details: 可渲染生成 arcs 弧线、areas 区域面积、curves 曲线、lines 线段、links 连线、pies 饼图、stacks 堆叠、symbols 符号等各种基本几何形状，以满足数据可视化的需求。
+    details: 可渲染生成 arcs 弧线、areas 面积、curves 曲线、lines 线段、links 连线、pies 饼图、stacks 堆叠、symbols 符号……各种基本几何形状，以满足数据可视化的需求。
     link: /zh-CN/d3-shape
   - title: 交互
-    details: 支持常见的交互操作，包括平移、缩放、刷选和拖拽，以增强用户探索数据的能力。
+    details: 支持常见的交互操作，包括 panning 平移、zooming 缩放、brushing 刷选和 dragging 拖拽，以增强用户探索数据的能力。
     link: /zh-CN/d3-brush
   - title: 布局
-    details: 提供实现 treemaps 树图、trees 树状图、force-directed graphs 力导向图、Voronoi 维诺图、contours 等高线图、chords 弦图、circle-packing 圆堆图等一系列布局算法的模块，可以开箱即用。
+    details: 提供实现 treemaps 树图、trees 树状图、force-directed graphs 力导向图、Voronoi 维诺图、contours 等高线图、chords 弦图、circle-packing 圆堆图……一系列布局算法的模块，可以开箱即用。
     link: /zh-CN/d3-hierarchy
   - title: 地图
-    details: 提供多种球面投影方式，支持任意角度、自适应采样、灵活裁剪，任你随意挑选。
+    details: 提供多种球面投影方式，支持任意角度、自适应采样、灵活裁剪，任君选择。
     link: /zh-CN/d3-geo
   - title: ……还有更多！
     details: 解析 CSV、对地方时的解析和格式化、颜色空间、计算日期、统计分析等各种功能应有尽有，不胜枚举。

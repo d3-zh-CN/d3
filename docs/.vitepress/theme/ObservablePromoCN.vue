@@ -5,7 +5,7 @@
     <div :class="$style.columns">
       <div :class="$style.column">
         <span :class="$style['column-header']">快速连接你的数据</span>
-        <span :class="$style['column-body']">将实时数据从云、文件和数据库中提取到一个安全的地方——永远无需安装任何额外软件。</span>
+        <span :class="$style['column-body']">将实时数据从云、文件和数据库中提取到一个安全的地方——永远无需安装任何额外的软件。</span>
       </div>
       <div :class="$style.column">
         <span :class="$style['column-header']">开发效率高于你所想</span>
