@@ -7,7 +7,6 @@ import ObservablePromoCN from "./ObservablePromoCN.vue";
 import { useData } from 'vitepress';
 
 const { lang } = useData();
-console.log(lang.value);
 
 const {Layout} = DefaultTheme;
 </script>
