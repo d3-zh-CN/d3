@@ -5,7 +5,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "D3 by Observable",
-  description: "可实现定制数据可视化的JavaScript库",
+  description: "JavaScript 库用于打造独具个性的数据可视化",
   cleanUrls: true,
   sitemap: {
     hostname: "https://d3js.org",
@@ -54,8 +54,8 @@ export default defineConfig({
       {
         text: "介绍",
         items: [
-          { text: "D3是什么?", link: "/zh-CN/what-is-d3" },
-          { text: "快速开始", link: "/zh-CN/getting-started" },
+          { text: "D3 是什么?", link: "/zh-CN/what-is-d3" },
+          { text: "入门指南", link: "/zh-CN/getting-started" },
         ],
       },
       {
@@ -309,8 +309,8 @@ export default defineConfig({
     ],
     footer: {
       message:
-        "Library released under <a style='text-decoration:underline;' href='https://github.com/d3/d3/blob/main/LICENSE'>ISC License</a>.",
-      copyright: `Copyright 2010–${new Date().getUTCFullYear()} Mike Bostock`,
+        "该库根据 <a style='text-decoration:underline;' href='https://github.com/d3/d3/blob/main/LICENSE'>ISC 许可证</a>发布。",
+      copyright: `版权所有 2010–${new Date().getUTCFullYear()} Mike Bostock`,
     },
   },
 });
