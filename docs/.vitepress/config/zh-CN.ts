@@ -61,9 +61,9 @@ export default defineConfig({
       {
         text: "可视化",
         items: [
-          { text: "坐标轴 d3-axis", link: "/zh-CN/d3-axis" },
+          { text: "d3-axis 坐标轴模块", link: "/zh-CN/d3-axis" },
           {
-            text: "弦 d3-chord",
+            text: "d3-chord 弦模块",
             link: "/zh-CN/d3-chord",
             collapsed: true,
             items: [
@@ -71,7 +71,7 @@ export default defineConfig({
               { text: "Ribbons", link: "/zh-CN/d3-chord/ribbon" },
             ],
           },
-          { text: "颜色 d3-color", link: "/zh-CN/d3-color" },
+          { text: "d3-color 颜色模块", link: "/zh-CN/d3-color" },
           {
             text: "d3-interpolate",
             link: "/zh-CN/d3-interpolate",
@@ -269,21 +269,21 @@ export default defineConfig({
         text: "Data",
         items: [
           {
-            text: "d3-array",
+            text: "d3-array 数组模块",
             link: "/zh-CN/d3-array",
             collapsed: true,
             items: [
-              { text: "Adding numbers", link: "/zh-CN/d3-array/add" },
-              { text: "Binning data", link: "/zh-CN/d3-array/bin" },
-              { text: "Bisecting data", link: "/zh-CN/d3-array/bisect" },
-              { text: "Blurring data", link: "/zh-CN/d3-array/blur" },
-              { text: "Grouping data", link: "/zh-CN/d3-array/group" },
-              { text: "Interning values", link: "/zh-CN/d3-array/intern" },
-              { text: "Set operations", link: "/zh-CN/d3-array/sets" },
-              { text: "Sorting data", link: "/zh-CN/d3-array/sort" },
-              { text: "Summarizing data", link: "/zh-CN/d3-array/summarize" },
-              { text: "Ticks", link: "/zh-CN/d3-array/ticks" },
-              { text: "Transforming data", link: "/zh-CN/d3-array/transform" },
+              { text: "Adding numbers 数值加法", link: "/zh-CN/d3-array/add" },
+              { text: "Binning data 数据分箱", link: "/zh-CN/d3-array/bin" },
+              { text: "Bisecting data 数据二分", link: "/zh-CN/d3-array/bisect" },
+              { text: "Blurring data 数据模糊化", link: "/zh-CN/d3-array/blur" },
+              { text: "Grouping data 数据分组", link: "/zh-CN/d3-array/group" },
+              { text: "Interning values 数据驻留", link: "/zh-CN/d3-array/intern" },
+              { text: "Set operations 集合操作", link: "/zh-CN/d3-array/sets" },
+              { text: "Sorting data 数据排序", link: "/zh-CN/d3-array/sort" },
+              { text: "Summarizing data 数据汇总", link: "/zh-CN/d3-array/summarize" },
+              { text: "Ticks 刻度生成", link: "/zh-CN/d3-array/ticks" },
+              { text: "Transforming data 数据转换", link: "/zh-CN/d3-array/transform" },
             ],
           },
           { text: "d3-dsv", link: "/zh-CN/d3-dsv" },
