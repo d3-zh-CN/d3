@@ -1,6 +1,6 @@
-# Adding numbers
+# 数值加法
 
-Add floating point numbers with full precision.
+对浮点数进行高精度的加法运算。
 
 ## new Adder() {#Adder}
 
@@ -8,7 +8,7 @@ Add floating point numbers with full precision.
 const adder = new d3.Adder();
 ```
 
-[Examples](https://observablehq.com/@d3/d3-fsum) · [Source](https://github.com/d3/d3-array/blob/main/src/fsum.js) · Creates a new adder with an initial value of 0.
+[示例](https://observablehq.com/@d3/d3-fsum) · [源码](https://github.com/d3/d3-array/blob/main/src/fsum.js) · 创建一个初始值为 0 的加法器 adder。
 
 ## *adder*.add(*number*) {#adder_add}
 
@@ -16,7 +16,7 @@ const adder = new d3.Adder();
 adder.add(42)
 ```
 
-Adds the specified *number* to the adder’s current value and returns the adder.
+将指定的*数字*加到加法器 adder 的当前值上，并返回该加法器对象。
 
 ## *adder*.valueOf() {#adder_valueOf}
 
@@ -24,7 +24,7 @@ Adds the specified *number* to the adder’s current value and returns the adder
 adder.valueOf() // 42
 ```
 
-Returns the IEEE 754 double-precision representation of the adder’s current value. Most useful as the short-hand notation `+adder`, or when coercing as `Number(adder)`.
+返回加法器 adder 的当前值的 [IEEE 754](https://zh.wikipedia.org/wiki/IEEE_754) 双精度表示形式。`+adder` 可以作为该方法的简写形式，或者通过 `Number(adder)` 将加法器 adder 强制转换为数字时调用该方法。
 
 ## fsum(*values*, *accessor*) {#fsum}
 
@@ -32,13 +32,13 @@ Returns the IEEE 754 double-precision representation of the adder’s current va
 d3.fsum([0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]) // 1
 ```
 
-[Examples](https://observablehq.com/@d3/d3-fsum) · [Source](https://github.com/d3/d3-array/blob/main/src/fsum.js) · Returns a full-precision summation of the given *values*. Although slower, d3.fsum can replace [d3.sum](./summarize.md#sum) wherever greater precision is needed.
+[示例](https://observablehq.com/@d3/d3-fsum) · [源码](https://github.com/d3/d3-array/blob/main/src/fsum.js) · 对给定数组 *values* 的元素进行求和，返回高精度的值。在需要更高精度的时候，可以用 d3.fsum 替换 [d3.sum](./summarize.md#sum)，虽然它的执行速度较慢。
 
 ```js
 d3.fsum(penguins, (d) => d.body_mass_g) // 1437000
 ```
 
-If an *accessor* is specified, invokes the given function for each element in the input *values*, being passed the element `d`, the index `i`, and the array `data` as three arguments; the returned values will then be added.
+如果提供了访问函数 *accessor*，则先对输入的数组 *values* 的每个元素应用该给定的函数，它接受三个参数：当前所遍历的元素 `d`、该元素的索引 `i` 和数组 `data`（即 *values*）；然后对返回的值求和。
 
 ## fcumsum(*values*, *accessor*) {#fcumsum}
 
@@ -46,10 +46,10 @@ If an *accessor* is specified, invokes the given function for each element in th
 d3.fcumsum([1, 1e-14, -1]) // [1, 1.00000000000001, 1e-14]
 ```
 
-[Examples](https://observablehq.com/@d3/d3-fcumsum) · [Source](https://github.com/d3/d3-array/blob/main/src/fsum.js) · Returns a full-precision cumulative sum of the given *values* as a Float64Array. Although slower, d3.fcumsum can replace [d3.cumsum](./summarize.md#cumsum) when greater precision is needed.
+[示例](https://observablehq.com/@d3/d3-fcumsum) · [源码](https://github.com/d3/d3-array/blob/main/src/fsum.js) · 对给定的数组 *values* 的元素进行累加，返回一个高精度的 Float64Array。在需要更高精度的时候，可以用 d3.fcumsum 替换 [d3.cumsum](./summarize.md#cumsum) ，虽然它的执行速度较慢。
 
 ```js
 d3.fcumsum(penguins, (d) => d.body_mass_g) // [3750, 7550, 10800, 10800, 14250, …]
 ```
 
-If an *accessor* is specified, invokes the given function for each element in the input *values*, being passed the element `d`, the index `i`, and the array `data` as three arguments; the returned values will then be added.
+如果提供了访问函数 *accessor*，则先对输入的数组 *values* 的每个元素应用该给定的函数，它接受三个参数：当前所遍历的元素 `d`、该元素的索引 `i` 和数组 `data`（即 *values*）；然后将返回的值累加起来。

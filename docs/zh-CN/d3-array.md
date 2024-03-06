@@ -13,5 +13,5 @@
 * [Set operations 集合操作](./d3-array/sets.md)——对集合执行逻辑操作。
 * [Sorting data 数据排序](./d3-array/sort.md)——对数值构成的数组进行排序和重新排序。
 * [Summarizing data 数据汇总](./d3-array/summarize.md)——计算汇总统计信息。
-* [Ticks 刻度生成](./d3-array/ticks.md)——从连续区间中提取生成具代表性的值（作为坐标轴的刻度值）。
+* [Ticks 刻度生成](./d3-array/ticks.md)——从连续区间中提取具代表性的值（作为坐标轴的刻度值）。
 * [Transforming data 数据转换](./d3-array/transform.md)——（从现有数组）派生出新数组。
