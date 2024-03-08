@@ -55,7 +55,7 @@ D3 在 JavaScript 环境中运行。
 }
 ```
 
-::: details 译者注
+::: details 译注
 以上示例代码需要在 [Observable 平台](https://observablehq.com)才能够正常运行，它的核心代码也是用 Javascript 编写的，但需要符合一些额外的（该平台特有的）规则，例如最外层需要使用 `{}` 包裹，最后要通过 `return svg.node()` 返回所创建的 SVG 元素。更具体的使用方法请参考 [Observable 官方文档](https://observablehq.com/documentation/)。
 :::
 
